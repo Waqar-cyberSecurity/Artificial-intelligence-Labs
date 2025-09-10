@@ -1,0 +1,45 @@
+1. Introduction to AI Concepts
+Objectives
+Understand the basic concepts and history of Artificial Intelligence (AI).
+Recognize the applications of AI in various sectors.
+Articulate the importance and future potential of AI in modern society.
+Prerequisites
+Basic understanding of computing and data processing.
+Familiarity with Python programming (preferred but not mandatory).
+Lab Tasks
+Task 1: Read about Key AI Milestones in History
+Introduction to AI History
+
+Artificial Intelligence began as a formal discipline in 1956 at the Dartmouth Conference.
+Key milestones include the development of the Turing Test by Alan Turing and the creation of the first AI program, the Logic Theorist, in 1955.
+Learn about significant advancements, such as deep learning and neural networks, in the 21st century.
+Research Activities
+
+Explore the evolution of AI comprehensively.
+Recommended Reading: "Artificial Intelligence: A Guide to Intelligent Systems" by Michael Negnevitsky.
+Case Study: IBM's Deep Blue beats world chess champion Garry Kasparov in 1997.
+Task 2: Identify Everyday Applications of AI
+Recognizing AI Around Us
+
+AI is integrated into many daily applications like virtual assistants (Siri, Alexa), recommendation systems (Netflix, Spotify), and autonomous vehicles.
+Hands-on Exploration
+
+Examine AI-powered applications on your smartphone and categorize them by function.
+Example Operations: Language translation, personal assistant queries, image recognition in social media platforms.
+Task 3: Write a Short Summary of AI’s Importance
+Understanding AI’s Impact
+
+AI has transformed industries by improving efficiencies, creating new business models, and enabling smarter decisions.
+Key sectors impacted include healthcare, finance, transportation, and customer service.
+Drafting Summary
+
+Write a concise paragraph summarizing AI’s key contributions and future potential.
+Example: "AI enhances healthcare by enabling early diagnosis through predictive analytics, optimizing resource management, and personalizing patient care."
+Key Concepts
+AI: Simulation of human intelligence processes by machines, especially computer systems.
+Deep Learning: A subset of machine learning in artificial intelligence (AI) that has networks capable of learning unsupervised from data.
+Neural Networks: A series of algorithms that mimic the operations of a human brain to recognize relationships between vast amounts of data.
+Conclusion
+In this lab, you have explored the fundamental aspects of AI, identified its pervasive role in everyday technology, and articulated its significance in modern society. Understanding these foundational concepts prepares you for further exploration and specialization in artificial intelligence technologies.
+
+Following these tasks and engaging with the provided resources should give you a comprehensive introduction to the world of AI, preparing you for more advanced topics and applications.
