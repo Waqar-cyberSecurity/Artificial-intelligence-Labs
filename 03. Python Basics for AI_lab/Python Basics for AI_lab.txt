@@ -1,0 +1,89 @@
+Lab Name: 3. Python Basics for AI
+Objectives
+Understand and practice using Python data types including lists, tuples, and dictionaries.
+Develop functions to perform basic arithmetic operations.
+Implement simple loop and conditional statements to understand their functionality.
+Prerequisites
+Basic knowledge of programming concepts.
+Python installed on your computer.
+Lab Tasks
+Task 1: Practice Data Types
+1.1 Lists
+Lists are ordered and mutable collections of items in Python. They are defined using square brackets [].
+
+Example:
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)  # Output: ['apple', 'banana', 'cherry']
+Subtask: Create a list of five different integers and print the second and fourth elements.
+
+numbers = [10, 20, 30, 40, 50]
+print("Second element:", numbers[1])
+print("Fourth element:", numbers[3])
+1.2 Tuples
+Tuples are ordered collections but unlike lists, they are immutable. They are defined using parentheses ().
+
+Example:
+
+coordinates = (10.0, 20.0)
+print(coordinates)  # Output: (10.0, 20.0)
+Subtask: Define a tuple containing four floats and print the first and last values.
+
+measurements = (21.5, 22.8, 19.6, 20.0)
+print("First value:", measurements[0])
+print("Last value:", measurements[-1])
+1.3 Dictionaries
+Dictionaries are unordered collections of items where each item consists of a key-value pair. They are defined using curly braces {}.
+
+Example:
+
+person = {"name": "Alice", "age": 25}
+print(person)  # Output: {'name': 'Alice', 'age': 25}
+Subtask: Create a dictionary representing a book with keys: title, author, and year. Print the book's title.
+
+book = {"title": "1984", "author": "George Orwell", "year": 1949}
+print("Book title:", book["title"])
+Task 2: Write a Function for Basic Arithmetic
+Functions are reusable blocks of code designed to perform a single, related action.
+
+Example Function:
+
+def add_numbers(num1, num2):
+    return num1 + num2
+Subtask: Write a function named calculate_difference that takes two numbers and returns their difference. Test the function with example values.
+
+def calculate_difference(num1, num2):
+    return num1 - num2
+
+# Testing the function
+print("Difference:", calculate_difference(7, 2))  # Output: 5
+Task 3: Test Simple Loop and Conditional Statements
+3.1 Loops
+Loops allow you to execute a block of code multiple times.
+
+For Loop Example:
+
+for i in range(5):
+    print("Iteration:", i)
+Subtask: Write a for loop to iterate over a list of items and print each item.
+
+animals = ["cat", "dog", "bird"]
+for animal in animals:
+    print(animal)
+3.2 Conditional Statements
+Conditional statements allow you to execute code based on certain conditions using if, elif, and else.
+
+Example:
+
+x = 10
+if x > 5:
+    print("x is greater than 5")
+Subtask: Use an if statement to check if a number is even or odd and print an appropriate message.
+
+number = 4
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+Conclusion
+In this lab, you've developed a basic understanding of Python's data types, including lists, tuples, and dictionaries. You've also learned how to define and use functions for arithmetic operations and implemented simple loops and conditional statements. These foundational skills are crucial as you advance in programming and AI applications. Remember, practice is key to mastering Python's powerful capabilities
