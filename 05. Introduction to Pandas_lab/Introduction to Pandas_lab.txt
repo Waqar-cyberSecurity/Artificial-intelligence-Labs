@@ -1,0 +1,44 @@
+Lab 5: Introduction to Pandas
+Objectives
+Understand the basic operations in Pandas
+Learn how to load data into a DataFrame
+Analyze data using built-in functions
+Perform data cleaning techniques
+Prerequisites
+Basic understanding of Python programming
+Installed latest versions of Python and Pandas
+Familiarity with using Jupyter Notebook or any Python IDE
+Lab Tasks
+Task 1: Load a CSV file into a DataFrame
+Step 1.1: Import Pandas Library
+Before starting, ensure that you have the Pandas library installed. Use the following command to import it in your Python environment.
+
+import pandas as pd
+Step 1.2: Load the CSV File
+Load a CSV file into a Pandas DataFrame using the read_csv() method. For this example, we'll assume you have a CSV file named data.csv.
+
+df = pd.read_csv('data.csv')
+Task 2: View the first few rows and basic statistics
+Step 2.1: Display the First Few Rows
+Use the head() method to view the first five rows of the DataFrame. This helps you to verify the data loading process.
+
+print(df.head())
+Step 2.2: Basic Statistics
+Pandas provides describe() method to view basic statistical details like mean, standard deviation, minimum, and maximum values.
+
+print(df.describe())
+Task 3: Clean data by removing missing values
+Step 3.1: Identify Missing Values
+Before cleaning, itâs crucial to understand where the missing values exist. Use isnull() combined with sum() to find out.
+
+print(df.isnull().sum())
+Step 3.2: Remove Missing Values
+Typically, you can remove rows containing missing values using the dropna() method. However, be sure this step aligns with your data goals.
+
+df_cleaned = df.dropna()
+Step 3.3: Verify Data Cleanliness
+Verify if the missing values have been handled as expected by checking again.
+
+print(df_cleaned.isnull().sum())
+Conclusion
+In this lab, you have learned the basics of working with Pandas. You loaded data from a CSV file, examined and interpreted the dataset using basic methods, and cleaned the data by removing missing values. This foundational knowledge is essential for exploring deeper functionalities of Pandas in data manipulation and analysis.
